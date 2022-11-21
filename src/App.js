@@ -14,7 +14,7 @@ function App() {
     };
 
     function pickColor() {
-        if(colorIndex == colors.length - 1) {
+        if(colorIndex === colors.length - 1) {
             setColorIndex(0)
         } else {
             setColorIndex(colorIndex + 1)
